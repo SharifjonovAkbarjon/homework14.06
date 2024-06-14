@@ -1,0 +1,48 @@
+.hero{
+    width: 100%;
+    background: url(../../assets/images/hero.png);
+}
+
+.hero__body{
+    display: flex;
+    
+    .hero__title{
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+
+        .hero__text{
+            display: flex;
+            margin-top: 48px;
+            gap: 5px;
+
+            .paragraph{
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22.4px;
+                color: rgb(255,255,255);
+
+                &:hover{
+                    cursor: pointer;
+                    color: rgba(245, 117, 32, 1);
+                }
+            }
+        }
+
+        .hero__heading{
+            display: flex;
+
+            .heading{
+            
+                font-family: Bebas Neue Cyrillic;
+                font-size: 64px;
+                font-weight: 400;
+                line-height: 78.72px;
+                letter-spacing: 0.05em;
+                margin-bottom: 65px;
+                color: rgb(255,255,255);
+            }
+        }
+    }
+}

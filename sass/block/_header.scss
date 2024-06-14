@@ -1,0 +1,194 @@
+.header{
+    width: 100%;
+    background: rgba(16, 16, 16, 1);
+    // background: saddlebrown;
+    height: 105px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .navbar__collection{
+        display: flex;
+        align-items: center;
+        gap: 74px;
+        .navbar__wrapper{
+            display: flex;
+            
+            .navbar__menu{
+                display: flex;
+                gap: 32px;
+
+                .navbar__item{
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 19.2px;
+                    color: rgb(255,255,255);
+                    transition: .7s;
+
+                    &:hover{
+                        cursor: pointer;
+                        color: rgba(245, 117, 32, 1);
+                    }
+                }
+            }
+
+        }
+
+        .navbar__icons{
+            display: flex;
+
+            .icons{
+                display: flex;
+                gap: 58px;
+
+                .google__fonts{
+                    display: flex;
+                    gap: 24px;
+                    color: #ddd;
+                    transition: .7s;
+
+                    &:hover{
+                        cursor: pointer;
+                        
+                    }
+                }
+
+                .hamburger{
+                    color: #ddd;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    
+        .navbar__collection{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            .navbar__wrapper{
+                display: flex;
+                
+                .navbar__menu{
+                    display: flex;
+                    gap: 20px;
+    
+                    .navbar__item{
+                        font-family: Inter;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 19.2px;
+                        color: rgb(255,255,255);
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: rgba(245, 117, 32, 1);
+                        }
+                    }
+                }
+    
+            }
+    
+            .navbar__icons{
+                display: flex;
+    
+                .icons{
+                    display: flex;
+                    gap: 58px;
+    
+                    .google__fonts{
+                        display: flex;
+                        gap: 24px;
+                        color: #ddd;
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            
+                        }
+                    }
+    
+                    .hamburger{
+                        color: #ddd;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width:800px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    
+        .navbar__collection{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            .navbar__wrapper{
+                display: flex;
+                
+                .navbar__menu{
+                    display: none;
+                    gap: 20px;
+    
+                    .navbar__item{
+                        font-family: Inter;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 19.2px;
+                        color: rgb(255,255,255);
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: rgba(245, 117, 32, 1);
+                        }
+                    }
+                }
+    
+            }
+    
+            .navbar__icons{
+                display: flex;
+    
+                .icons{
+                    display: flex;
+                    gap: 45px;
+    
+                    .google__fonts{
+                        display: flex;
+                        gap: 18px;
+                        color: #ddd;
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            
+                        }
+                    }
+    
+                    .hamburger{
+                        color: #ddd;
+                    }
+                }
+            }
+        }
+    }
+    
+}
