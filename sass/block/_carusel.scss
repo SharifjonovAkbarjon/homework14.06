@@ -6,13 +6,8 @@
 
 .carusel__body{
     display: flex;
-    flex-direction: row;
-    overflow: scroll;
     gap: 80px;
-
-    .carusel__img{
-        display: flex;
-        align-items: center;
-    }
-
+    align-items: center;
+    overflow-x: auto;
+   
 }

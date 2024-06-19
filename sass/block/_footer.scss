@@ -99,7 +99,230 @@
                 line-height: 19.2px;
                 color: rgba(119, 119, 119, 1);
 
+                margin-bottom: 20px;
+
             }
         }
     }
+}
+
+@media (max-width:760px) {
+    .footer__body{
+        display: flex;
+        flex-direction: column;
+    
+        .first{
+            display: flex;
+            margin-top: 90px;
+    
+            .footer__wrapper{
+                display: flex;
+                gap: 90px;
+                justify-content: space-between;
+    
+                .logo{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                    width: 23%;
+    
+                    .title{
+                        display: flex;
+    
+                        p{
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-weight: 300;
+                            line-height: 25.6px;
+                            color: rgba(179, 179, 179, 1);
+    
+                        }
+                    }
+                }
+    
+                .collection{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+    
+                    .headerr{
+                        display: flex;
+    
+                        h2{
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-weight: 500;
+                            line-height: 38.4px;
+                            letter-spacing: 0.01em;
+                            color: rgb(255,255,255);
+    
+                        }
+                    }
+
+                    .menus{
+                        display: flex;
+    
+                        .footer__ul{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+    
+                            .text{
+                                font-family: Inter;
+                                font-size: 16px;
+                                font-weight: 300;
+                                line-height: 25.6px;
+                                color: rgb(255,255,255);
+    
+                                &:hover{
+                                    cursor: pointer;
+                                    color: rgba(245, 117, 32, 1);
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+
+                .katalog{
+                    display: none;
+                }
+            }
+        }
+    
+        .second{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+    
+            .last{
+                display: flex;
+                gap: 25px;
+    
+                p{
+                    color: aliceblue;
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 19.2px;
+                    color: rgba(119, 119, 119, 1);
+    
+                    margin-bottom: 20px;
+    
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width:450px) {
+    .footer__body{
+        display: flex;
+        flex-direction: column;
+    
+        .first{
+            display: flex;
+            margin-top: 90px;
+    
+            .footer__wrapper{
+                display: flex;
+                gap: 9px;
+                justify-content: space-between;
+    
+                .logo{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                    width: 23%;
+    
+                    .title{
+                        display: flex;
+    
+                        p{
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-weight: 300;
+                            line-height: 25.6px;
+                            color: rgba(179, 179, 179, 1);
+    
+                        }
+                    }
+                }
+    
+                .collection{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 60px;
+    
+                    .headerr{
+                        display: flex;
+    
+                        h2{
+                            font-family: Inter;
+                            font-size: 18px;
+                            font-weight: 500;
+                            line-height: 38.4px;
+                            letter-spacing: 0.01em;
+                            color: rgb(255,255,255);
+    
+                        }
+                    }
+
+                    .menus{
+                        display: flex;
+    
+                        .footer__ul{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+    
+                            .text{
+                                font-family: Inter;
+                                font-size: 13px;
+                                font-weight: 300;
+                                line-height: 25.6px;
+                                color: rgb(255,255,255);
+    
+                                &:hover{
+                                    cursor: pointer;
+                                    color: rgba(245, 117, 32, 1);
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+
+                .katalog{
+                    display: none;
+                }
+            }
+        }
+    
+        .second{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+    
+            .last{
+                display: flex;
+                gap: 25px;
+    
+                p{
+                    color: aliceblue;
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 19.2px;
+                    color: rgba(119, 119, 119, 1);
+    
+                    margin-bottom: 20px;
+    
+                }
+            }
+        }
+    }
+    
 }

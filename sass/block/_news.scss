@@ -107,3 +107,124 @@
         margin-right: -200px;
     }
 }
+
+@media (max-width:1280px) {
+    .news__body{
+        display: flex;
+        gap: 10px;
+    
+        .title{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+    
+            .heading{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+
+    
+                h2{
+                    width: 600px;
+                    font-family: Bebas Neue Cyrillic;
+                    font-size: 40px;
+                    font-weight: 400;
+                    line-height: 78.72px;
+                    letter-spacing: 0.05em;
+                    color: rgb(255,255,255);
+                    justify-content: center;
+                    text-align: center;
+    
+                }
+            }
+    
+            .buttons{
+                display: flex;
+    
+                .btns{
+                    display: flex;
+                    gap: 16px;
+                    align-items: center;
+                    width: 100%;
+    
+                    .input{
+                        display: flex;
+                        width: 100%;
+    
+    
+                        .input__name{
+                            display: flex;
+                            padding: 10px 16px;
+                            border: none;
+                            width: 100%;
+                            border-radius: 5px;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 25.6px;
+                            color: rgba(119, 119, 119, 1);
+    
+                        }
+                    }
+    
+                    .button{
+                        display: flex;
+                        
+    
+                        .news__btn{
+                            background: rgba(245, 117, 32, 1);
+                            border-radius: 5px;
+                            padding: 13px 37px;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 19.68px;
+                            color: antiquewhite;
+                            transition: .7s;
+    
+                            &:hover{
+                                cursor: pointer;
+                                background: green;
+                            }
+    
+                        }
+                    }
+    
+                }
+            }
+    
+            .text{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-top: 14px;
+                justify-content: center;
+                width: 100%;
+
+                
+    
+                .title{
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    text-align: center;
+    
+                    p{
+                        font-family: Inter;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 19.2px;
+                        color: aliceblue;
+                        text-align: center;
+    
+                    }
+                }
+            }
+        }
+    
+        .image{
+            display: none;
+            margin-right: -200px;
+        }
+    }
+}

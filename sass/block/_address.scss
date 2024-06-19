@@ -100,5 +100,298 @@
 }
 
 @media (max-width:1000px) {
+    .addres__body{
+        display: flex;
+        justify-content: space-between;
     
+        .graphic{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+    
+            .address__magazin{
+                display: flex;
+                flex-direction: column;
+    
+    
+                .span{
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28.8px;
+                    letter-spacing: 0.01em;
+                    color: rgba(16, 16, 16, 1);
+                    margin-bottom: 10px;
+    
+                }
+    
+                .paragraph{
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 25.6px;
+                    color: rgba(16, 16, 16, 1);
+                    
+                }
+                
+            }
+        }
+    
+        .information{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+    
+            .yuridik{
+                display: flex;
+    
+                .bold{
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28.8px;
+                    letter-spacing: 0.01em;
+                    text-align: left;
+                    color: rgba(16, 16, 16, 1);
+    
+                }
+            }
+    
+            .names{
+                display: flex;
+                gap: 60px;
+    
+                .inform{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+    
+                    .inf__text{
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 25.6px;
+                        text-align: left;
+                        color: rgba(119, 119, 119, 1);
+    
+                    }
+                }
+    
+                .name{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+    
+                    .name__title{
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 25.6px;
+                        text-align: right;
+                        color: rgba(16, 16, 16, 1);
+    
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:832px) {
+    .addres__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    
+        .graphic{
+            display: flex;
+            flex-direction: column;
+    
+            .address__magazin{
+                display: flex;
+                flex-direction: column;
+
+                .span{
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 28.8px;
+                    letter-spacing: 0.01em;
+                    color: rgba(16, 16, 16, 1);
+                    // margin-bottom: 10px;
+    
+                }
+    
+                .paragraph{
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 25.6px;
+                    color: rgba(16, 16, 16, 1);
+                    
+                }
+                
+            }
+        }
+    
+        .information{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+    
+            .yuridik{
+                display: flex;
+    
+                .bold{
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 28.8px;
+                    letter-spacing: 0.01em;
+                    text-align: left;
+                    color: rgba(16, 16, 16, 1);
+    
+                }
+            }
+    
+            .names{
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+    
+                .inform{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+    
+                    .inf__text{
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 25.6px;
+                        text-align: left;
+                        color: rgba(119, 119, 119, 1);
+    
+                    }
+                }
+    
+                .name{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+    
+                    .name__title{
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 25.6px;
+                        text-align: right;
+                        color: rgba(16, 16, 16, 1);
+    
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:531px) {
+    .addres__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    
+        .graphic{
+            display: flex;
+            flex-direction: column;
+    
+            .address__magazin{
+                display: flex;
+                flex-direction: column;
+
+                .span{
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 28.8px;
+                    letter-spacing: 0.01em;
+                    color: rgba(16, 16, 16, 1);
+                    // margin-bottom: 10px;
+    
+                }
+    
+                .paragraph{
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 25.6px;
+                    color: rgba(16, 16, 16, 1);
+                    
+                }
+                
+            }
+        }
+    
+        .information{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+    
+            .yuridik{
+                display: flex;
+    
+                .bold{
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 28.8px;
+                    letter-spacing: 0.01em;
+                    text-align: left;
+                    color: rgba(16, 16, 16, 1);
+    
+                }
+            }
+    
+            .names{
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+    
+                .inform{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+    
+                    .inf__text{
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 25.6px;
+                        text-align: left;
+                        color: rgba(119, 119, 119, 1);
+    
+                    }
+                }
+    
+                .name{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+    
+                    .name__title{
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 25.6px;
+                        text-align: right;
+                        color: rgba(16, 16, 16, 1);
+    
+                    }
+                }
+            }
+        }
+    }
 }

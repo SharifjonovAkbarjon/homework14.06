@@ -121,4 +121,124 @@
 
 }
 
+@media (max-width:600px) {
+    .questions__body{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    
+        .quests{
+            display: flex;
+    
+            .colection{
+                display: flex;
+                flex-direction: column;
+    
+                .heading{
+                    display: flex;
+    
+                    h2{
+                        font-family: Bebas Neue Cyrillic;
+                        font-size: 32px;
+                        font-weight: 500;   
+                        line-height: 49.2px;
+                        letter-spacing: 0.05em;
+                        margin-top: 160px;
+    
+                    }
+                }
+    
+                .buttons{
+                    display: flex;
+    
+                    .btns{
+                        display: flex;
+                        margin: 90px 0 24px 0;
+                        width: 100%;
+    
+                        .button{
+                            display: flex;
+                            width: 100%;
+                            padding: 24px 32px 24px 32px;
+                            background: rgba(245, 117, 32, 1);
+                            border-radius: 10px;
+                            border: none;
+                            font-family: Inter;
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 28.8px;
+                            letter-spacing: 0.01em;
+                            color: rgb(255,255,255);
+                            transition: .7s;
+    
+                            &:hover{
+                                cursor: pointer;
+                                background: green;
+                            }
+    
+                        }
+                    }
+                }
+    
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    padding-left: 32px;
+    
+                    .paragraph{
+                        font-family: Inter;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 25.6px;
+                        text-align: left;
+                        color: rgba(76, 76, 76, 1);
+    
+                    }
+                }
+            }
+        }
+    
+        .owl{
+            display: flex;
+    
+            .butons{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                width: 100%;
+    
+                .btns{
+                    display: flex;
+                    // width: 100%;
+    
+                    .owl__btn{
+                        display: flex;
+                        width: 100%;
+                        padding: 24px 66px 24px 32px;
+                        font-family: Inter;
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 28.8px;
+                        letter-spacing: 0.01em;
+                        color: rgba(16, 16, 16, 1);
+                        border: none;
+                        background: rgba(248, 248, 248, 1);
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            background: green;
+                            border-radius: 10px;
+                            color: aliceblue;
+                        }
+                    }
+    
+                }
+            }
+        }
+    
+    }
+}
+
 
